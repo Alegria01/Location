@@ -1,56 +1,48 @@
-<!DOCTYPE html>
-<html lang="es">
+<link rel="manifest" href="./manifest.webmanifest" />
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>PWA Geolocalización</title>
+<style>
+    body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        margin: 1.5rem;
+        max-width: 600px;
+    }
 
-    <link rel="manifest" href="/manifest.webmanifest" />
+    button {
+        padding: 0.7rem 1.2rem;
+        border-radius: 0.5rem;
+        border: none;
+        cursor: pointer;
+        margin-right: 0.5rem;
+    }
 
-    <style>
-        body {
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-            margin: 1.5rem;
-            max-width: 600px;
-        }
+    #btn-ubicacion {
+        background: #2563eb;
+        color: white;
+    }
 
-        button {
-            padding: 0.7rem 1.2rem;
-            border-radius: 0.5rem;
-            border: none;
-            cursor: pointer;
-            margin-right: 0.5rem;
-        }
+    #btn-detener {
+        background: #ef4444;
+        color: white;
+    }
 
-        #btn-ubicacion {
-            background: #2563eb;
-            color: white;
-        }
+    .card {
+        border-radius: 0.75rem;
+        padding: 1rem;
+        background: #f9fafb;
+        margin-top: 1rem;
+        border: 1px solid #e5e7eb;
+    }
 
-        #btn-detener {
-            background: #ef4444;
-            color: white;
-        }
+    .label {
+        font-weight: 600;
+    }
 
-        .card {
-            border-radius: 0.75rem;
-            padding: 1rem;
-            background: #f9fafb;
-            margin-top: 1rem;
-            border: 1px solid #e5e7eb;
-        }
-
-        .label {
-            font-weight: 600;
-        }
-
-        code {
-            background: #f3f4f6;
-            padding: 0.1rem 0.3rem;
-            border-radius: 0.25rem;
-        }
-    </style>
+    code {
+        background: #f3f4f6;
+        padding: 0.1rem 0.3rem;
+        border-radius: 0.25rem;
+    }
+</style>
 </head>
 
 <body>
@@ -95,7 +87,7 @@
         </ul>
     </div>
 
-    <script src="/app.js"></script>
+    <script src="./app.js"></script>
 </body>
 
 </html>
